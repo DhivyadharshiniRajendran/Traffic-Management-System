@@ -31,3 +31,5 @@ The map possesses an internal `heatmapEngine` that mathematically monitors activ
 - **Total Delay**: Every single computer *tick* (frame) that a robot's logic assesses as strictly `"waiting"` or `"stopped"` tallies exactly `+1` against this counter. It tracks the collective friction caused by heavy intersections.
 - **Deadlocks Cleared**: Tracks the sum total of systemic DFS algorithmic path-wipes executed by the engine when forcing traffic-jam resets.
 - **Throughput**: Computes *successful deliveries*. This strictly clicks `+1` on exactly the frame a robot completes its active layout and physically arrives at the coordinates of its `goalWaypointId`. Once an individual robot successfully tallies `12` full goal routes, it systematically retires itself gracefully to an `Idle` standby state and yields the floor.
+
+  Video Link : https://drive.google.com/drive/folders/1Z8ufbjOVuswjVoD5gRJV9I4QzPt8lZNM
